@@ -1,0 +1,55 @@
+/* Write your code here. */
+.bg-container {
+  background-image: linear-gradient(to right, #1d976c, #93f9b9);
+  height: 100vh;
+  width: 100vw;
+  background-size: cover;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+  font-family: Roboto;
+}
+.text-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+
+  padding: 20px;
+}
+.heading {
+  font-size: 50px;
+  font-weight: 600;
+  color: white;
+  margin-bottom: 20px;
+}
+.label {
+  font-size: 15px;
+  color: #e4e7eb;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+.inputEle {
+  background-color: transparent;
+  border: 2px solid white;
+  width: 40vw;
+  border-radius: 05px;
+  font-size: 20px;
+  padding: 10px;
+  color: white;
+  outline: none;
+}
+.calculate-img {
+  height: 32vh;
+}
+.count-text {
+  margin-top: 20px;
+  font-size: 30px;
+  color: #219a6f;
+  font-weight: bold;
+  background-color: white;
+  border-radius: 10px;
+  padding: 15px;
+}
